@@ -1,8 +1,6 @@
 package com.Adidas.step_definitions;
 
 
-
-
 import com.Adidas.utilities.BrowserUtils;
 import com.Adidas.utilities.ConfigurationReader;
 import com.Adidas.utilities.Driver;
@@ -63,6 +61,5 @@ public class Hooks {
     public void teardownStep(){
         System.out.println("-----> @AfterSTEP : Running after each step!");
     }
-
 
 }
